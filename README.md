@@ -1,4 +1,8 @@
 # sma-emeter-simulator
+
+__This fork of the sma-emeter-simulator reads values from STDIN instead of using hardcoded values.__
+
+
 An SMA(TM) emeter simulator written in C++. It mimics an SMA(TM) emeter device on your local network by generating the same kind of udp packets that an actual SMA(TM) emeter would generate.
 
 SMA-Emeters(TM) send out udp packets including electrical power and energy measurements at intervals of 1000ms. The general udp packet format is specified in a publicly available specification document provided by the manufacturer (https://developer.sma.de/fileadmin/content/global/Partner/Documents/SMA_Labs/EMETER-Protokoll-TI-en-10.pdf).
